@@ -45,7 +45,7 @@ if ( !class_exists( 'Livemesh_Elementor_Addons' ) ) {
         public function __clone()
         {
             // Cloning instances of the class is forbidden
-            _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'livemesh-el-addons' ), '4.2' );
+            _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'livemesh-el-addons' ), '4.3.1' );
         }
         
         /**
@@ -55,7 +55,7 @@ if ( !class_exists( 'Livemesh_Elementor_Addons' ) ) {
         public function __wakeup()
         {
             // Unserializing instances of the class is forbidden
-            _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'livemesh-el-addons' ), '4.2' );
+            _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'livemesh-el-addons' ), '4.3.1' );
         }
         
         private function setup_debug_constants()
@@ -349,6 +349,13 @@ if ( !class_exists( 'Livemesh_Elementor_Addons' ) ) {
             if ( !$deactivate_element_testimonials_slider ) {
                 require_once LAE_ADDONS_DIR . 'testimonials-slider.php';
                 $widgets_manager->register_widget_type( new \LivemeshAddons\Widgets\LAE_Testimonials_Slider_Widget() );
+            }
+            
+            $deactivate_element_tab_slider = lae_get_option( 'lae_deactivate_element_tab_slider', false );
+            
+            if ( !$deactivate_element_tab_slider ) {
+                require_once LAE_ADDONS_DIR . 'tab-slider.php';
+                $widgets_manager->register_widget_type( new \LivemeshAddons\Widgets\LAE_Tab_Slider_Widget() );
             }
             
             $deactivate_element_stats_bar = lae_get_option( 'lae_deactivate_element_stats_bar', false );

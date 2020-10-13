@@ -1164,6 +1164,18 @@ else {
             <div id="updates-panel" class="panel-left">
 
                 <h2>Change Log for the Premium Version</h2>
+                <h3>4.3.1</h3>
+                <ul>
+                    <li>Added - Smooth height option to Testimonials Slider</li>
+                </ul>
+                <h3>4.3</h3>
+                <ul>
+                    <li>Added - Touch enabled, responsive Tab Slider widget for Elementor</li>
+                    <li>Added - Three default styles for Tab Slider widget</li>
+                    <li>Added - Extensive customization options for Tab Slider elements</li>
+                    <li>Added - Ability to deactivate Tab Slider addon in Settings window</li>
+                    <li>Added - Ability to use icons or images for titles of tab slider</li>
+                </ul>
                 <h3>4.2</h3>
                 <ul>
                     <li>Fixed - Pagination and filtering in Posts Grid and Posts Block would remove loading indicator prematurely</li>

@@ -22,6 +22,7 @@ $deactivate_element_stats_bar = lae_get_option( 'lae_deactivate_element_stats_ba
 $deactivate_element_team = lae_get_option( 'lae_deactivate_element_team', false );
 $deactivate_element_testimonials = lae_get_option( 'lae_deactivate_element_testimonials', false );
 $deactivate_element_testimonials_slider = lae_get_option( 'lae_deactivate_element_testimonials_slider', false );
+$deactivate_element_tab_slider = lae_get_option( 'lae_deactivate_element_tab_slider', false );
 ?>
 
 <div class="lae-settings">
@@ -430,6 +431,27 @@ echo  $deactivate_element_testimonials_slider ;
 echo  checked( !empty($deactivate_element_testimonials_slider), 1, false ) ;
 ?>>
                                     <label for="lae_deactivate_element_testimonials_slider"></label>
+                                </div>
+                            </div>
+
+                            <div class="lae-row lae-type-checkbox lae-field">
+                                <label class="lae-label"><?php 
+echo  __( 'Deactivate Tab Slider', 'livemesh-el-addons' ) ;
+?></label>
+                                <p class="lae-desc"><?php 
+echo  __( 'Deactivate the tab slider element.', 'livemesh-el-addons' ) ;
+?></p>
+                                <div class="lae-spacer" style="height: 5px"></div>
+                                <div class="lae-toggle">
+                                    <input type="checkbox" class="lae-checkbox"
+                                           name="lae_deactivate_element_tab_slider"
+                                           id="lae_deactivate_element_tab_slider" data-default=""
+                                           value="<?php 
+echo  $deactivate_element_tab_slider ;
+?>" <?php 
+echo  checked( !empty($deactivate_element_tab_slider), 1, false ) ;
+?>>
+                                    <label for="lae_deactivate_element_tab_slider"></label>
                                 </div>
                             </div>
 

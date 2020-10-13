@@ -5,7 +5,7 @@ Contributors: livemesh, elementoraddons, freemius
 Tags: elementor, elementor addons, elementor extensions, elementor widgets, page builder, woocommerce elementor
 Requires at least: 4.5
 Tested up to: 5.5
-Stable Tag: 4.2
+Stable Tag: 4.3.1
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -43,7 +43,9 @@ The plugin comes with the following Elementor addons or extensions. <strong>Almo
 <li><a href="https://livemeshelementor.com/generic-carousel/" title="Generic Carousel Addon">Generic Carousel</a> element that displays lets you present a list of HTML content in a carousel.</li>
 <li>Heading styles to capture effective headings for your page sections.</li>
 <li><a href="https://livemeshelementor.com/clients-module/" title="Clients List Element">Clients List</a> extension to showcase the clients that you have handled.</li>
-<li><a href="https://livemeshelementor.com/pricing-table/" title="Pricing Table Extension">Pricing Plans</a> to help get more sales.</li></ul>
+<li><a href="https://livemeshelementor.com/pricing-table/" title="Pricing Table Extension">Pricing Plans</a> to help get more sales.</li>
+<li>Tab Slider addon which showcases a touch friendly, responsive tab slider.</li>
+</ul>
 
 The <strong><a href="https://livemeshelementor.com/" title="Livemesh Addons for Elementor Premium" target="_blank">Premium version</a></strong> of the plugin comes with additional addons and advanced features added to elements above -
 
@@ -118,6 +120,16 @@ Pls install and activate the <a href="https://wordpress.org/plugins/portfolio-po
 
 
 
+
+= 4.3.1 =
+* Added - Smooth height option to Testimonials Slider
+
+= 4.3 =
+* Added - Touch enabled, responsive Tab Slider widget for Elementor
+* Added - Three default styles for Tab Slider widget
+* Added - Extensive customization options for Tab Slider elements
+* Added - Ability to deactivate Tab Slider addon in Settings window
+* Added - Ability to use icons or images for titles of tab slider
 
 = 4.2 =
 * Fixed - The message prompting for custom grid template not fully visible
